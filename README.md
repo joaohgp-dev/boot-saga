@@ -1,4 +1,4 @@
-# 🚧-⚠️-| Este documento ainda está sendo escrito |-⚠️-🚧
+# ⚠️-| Este documento ainda está sendo escrito |-⚠️
 
 # Boot Saga
 
@@ -33,3 +33,5 @@ Uma vez que o pendrive esteja pronto, precisamos criar o arquivo `unattend.xml`,
 > * [Hibernação e sistemas multiboot](https://wiki.archlinux.org/title/EFI_system_partition#Hibernation_and_multi_boot_systems)
 >
 > **SEM AS MEDIDAS CORRETAS, HÁ RISCO DE CORRUPÇÃO DO SISTEMA**.
+
+# 👷‍♂️Este material ainda está sendo redigido! Fique atento as atualizações!
