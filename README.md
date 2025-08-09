@@ -33,11 +33,13 @@ Meu objetivo é facilitar o processo de instalação e configuração para entus
 > * [1.2. Pré instalação do Arch Linux]()  
 >   * [1.2.1. Preparando a mídia de instalação]()
 >   * [1.2.2. Planejando seu sistema operacional]()
->   * [1.2.3. |OPICIONAL| Criando um script de instalação]()  
+>   * [1.2.3. |OPICIONAL| Criando um script de instalação]()
+>
 > [2. Instalação]()  
 > * [2.1. Instalação do Windows 11]()
 >   * [2.1.1. Inicializando pela mídia de instalação]()  
-> * [2.2. Instalação do Arch Linux]()  
+> * [2.2. Instalação do Arch Linux]()
+>
 > [3. Pós instalação]()  
 
 ## Pré instalação
@@ -51,8 +53,6 @@ Neste contexto, o Windows 11 atua como um sistema secundário complementar, agre
 Primeiramente, é necessário baixar a imagem do Windows 11 e preparar um pendrive bootável. A imagem pode ser baixada diretamente do [site](https://www.microsoft.com/pt-br/software-download/windows11) da Microsoft. Para criar um pendrive bootável, recomendo o **Microsoft Media Tool** (encontrado no link anterior) e o [**Rufus**](https://rufus.ie/pt_BR/) para Windows. Para Linux, recomendo o [WoeUSB](https://github.com/WoeUSB/WoeUSB). Siga as instruções do programa escolhido.
 > [!WARNING]  
 > Para evitar conflitos, não utilize as opções avançadas do **Rufus**, visto que posteriormente usaremos outro método para personalizar a instalação.
-
-#### Escolhendo softwares do sistema
 
 #### Escolhendo softwares do sistema
 
@@ -90,7 +90,7 @@ A escolha dos softwares é uma decisão pessoal. Recomendo que você instale pel
 > **SEM AS MEDIDAS CORRETAS, HÁ RISCO DE CORRUPÇÃO DO SISTEMA**.
 
 Uma vez que a mídia de instalação esteja pronta, precisamos criar um arquivo de resposta chamado `unattend.xml`, que é um método oficial para fazer instalações personalizadas, para mais informações consulte a documentação [aqui](https://learn.microsoft.com/pt-br/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11). Estarei utilizando o [Schneegans autounattend.xml generator](https://schneegans.de/windows/unattend-generator/?) para gerar esse arquivo.  
-
+Vou estar compartilhando as 
 
 #### Backup de arquivos
 
