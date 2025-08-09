@@ -126,4 +126,4 @@ Por último, recomendo fazer a leitura da página de uso da ferramenta [aqui](ht
 > [!WARNING]
 > Antes de iniciar a instalação certifique-se de fazer backup de arquivos, senhas e qualquer dado que esteja armazenado localmente, pois a instalação **apagará completamente qualquer dado salvo no computador**.
 
-<h1>👷‍♂️Este material ainda está sendo redigido!<br /> Fique atento as atualizações!</h1>
+<h1>👷‍♂️Este material ainda está sendo redigido!<br /> 👁️ Fique atento as atualizações!</h1>
