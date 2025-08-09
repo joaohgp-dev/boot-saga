@@ -68,14 +68,14 @@ A escolha dos softwares é uma decisão pessoal. Recomendo que você instale pel
 | Git                 | Versionador de software               | [https://git-scm.com/](https://git-scm.com/)                                                               |  
 
 **Utilitários:**
-| Nome                | Função                               | Página oficial |  
-| ------------------- | ------------------------------------ | -------------- |  
-| 7-zip               | Gerenciador de arquivos compactados  | []() |
-| Notepad++           | Editor de texto                      | []() |
-| ShareX              | Ferramenta de captura                | []() |
-| ImageGlass          | Reprodutor de imagem                 | []() |
-| VLC                 | Reprodutor de vídeo e áudio          | []() |
-| Localsend           | Compartilhar arquivos localmente     | []() |
+| Nome                | Função                               | Página oficial                                                   |  
+| ------------------- | ------------------------------------ | ---------------------------------------------------------------- |  
+| 7-zip               | Gerenciador de arquivos compactados  | [https://www.7-zip.org/](https://www.7-zip.org/)                 |  
+| Notepad++           | Editor de texto                      | [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) |  
+| ShareX              | Ferramenta de captura                | [https://getsharex.com/](https://getsharex.com/)                 |  
+| ImageGlass          | Reprodutor de imagem                 | [https://imageglass.org/](https://imageglass.org/)               |  
+| VLC                 | Reprodutor de vídeo e áudio          | [https://www.videolan.org/](https://www.videolan.org/)           |  
+| Localsend           | Compartilhar arquivos localmente     | [https://localsend.org/pt-BR](https://localsend.org/pt-BR)       |  
 
 <br>
 
