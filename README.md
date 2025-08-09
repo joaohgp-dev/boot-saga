@@ -64,10 +64,10 @@ A escolha dos softwares é uma decisão pessoal. Recomendo que você instale pel
 | ------------------- | ------------------------------------ | ---------------------------------------------------------------- |  
 | 7-zip               | Gerenciador de arquivos compactados  | [https://www.7-zip.org/](https://www.7-zip.org/)                 |  
 | Notepad++           | Editor de texto                      | [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) |  
+| Localsend           | Compartilhar arquivos localmente     | [https://localsend.org/pt-BR](https://localsend.org/pt-BR)       |  
 | ShareX              | Ferramenta de captura                | [https://getsharex.com/](https://getsharex.com/)                 |  
 | ImageGlass          | Reprodutor de imagem                 | [https://imageglass.org/](https://imageglass.org/)               |  
 | VLC                 | Reprodutor de vídeo e áudio          | [https://www.videolan.org/](https://www.videolan.org/)           |  
-| Localsend           | Compartilhar arquivos localmente     | [https://localsend.org/pt-BR](https://localsend.org/pt-BR)       |  
 
 #### Personalizando a instalação com unattend.xml
 
