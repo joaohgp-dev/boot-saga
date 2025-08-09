@@ -98,9 +98,9 @@ FORMAT QUICK FS=NTFS LABEL="Recovery"
 SET ID="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
 GPT ATTRIBUTES=0x8000000000000001
 ```
-* **Contas de usuário**: Caso você queira pular a nescessidade de vincular uma conta Microsoft pode configurar contas locais aqui.
+* **Contas de usuário**: Caso você queira pular a necessidade de vincular uma conta Microsoft pode configurar contas locais aqui.
 * **Ajustes do sistema**: Muitas opções úteis se encontram nessa sessão, aproveite o máximo que puder.
-* **Setup de WLAN/Wifi**: Caso precise de uma conexão com a internet, isso se aplica para ao próximo tópico. É nescessário configurar uma conexão aqui.
+* **Setup de WLAN/Wifi**: Caso precise de uma conexão com a internet, isso se aplica para ao próximo tópico. É necessário configurar uma conexão aqui.
 * **Utilize scripts personalizados**: Uma excelente opção para usuários mais avançados, você pode conferir alguns exemplos fornecidos pela própria ferramenta [aqui](https://schneegans.de/windows/unattend-generator/samples/). Caso não tenha experiência com PowerShell recomendo a leitura da documentação oficial [aqui](https://learn.microsoft.com/en-us/powershell/).
 
 **| OPCIONAL | Automatizando a instalação de softwares via script**
