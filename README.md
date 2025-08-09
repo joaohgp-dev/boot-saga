@@ -79,11 +79,10 @@ A escolha dos softwares é uma decisão pessoal. Recomendo que você instale pel
 >
 > **SEM AS MEDIDAS CORRETAS, HÁ RISCO DE CORRUPÇÃO DO SISTEMA**.
 
-Uma vez que a mídia de instalação esteja pronta, precisamos criar um arquivo de resposta chamado `unattend.xml`, que é um método oficial para fazer instalações personalizadas, para mais informações consulte a documentação [aqui](https://learn.microsoft.com/pt-br/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11). Estarei utilizando o [Schneegans autounattend.xml generator](https://schneegans.de/windows/unattend-generator/?) para gerar esse arquivo, recomendo fortemente que explore todas as opções, pesquise e se informe; Eu nunca mais toquei na interface do instalador porque todos os processos de instalação do Windows 11, configurações, debloat e instalação de programas é feito automaticamente na instalação.
-
+Uma vez que a mídia de instalação esteja pronta, precisamos criar um arquivo de resposta chamado `unattend.xml`, que é um método oficial para fazer instalações personalizadas, para mais informações consulte a documentação [aqui](https://learn.microsoft.com/pt-br/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11). Estarei utilizando o [Schneegans autounattend.xml generator](https://schneegans.de/windows/unattend-generator/?) para gerar esse arquivo, recomendo fortemente que explore todas as opções. A interface de intalação do Windows nunca mais viu a luz do dia na minha máquina depois que aperfeiçoei as automoções de ajustes do sistema, debloat e instalação de programas.  
 Vou estar enfatizando algumas opções que podem ser úteis para previnir certos problemas, sinta se livre para fazer as próprias escolhas, desde que tenha se informado e tomado as devidas providências, não deve encontrar dificuldades.  
 * **Configurações de setup**: Algumas opções importantes para cenários específicos.
-* **Particionamento e formatação**: Recomento utilizar a opção de script para evitar retrabalho e problemas na instalação do Arch, recomendo a leitura do [tópico de instalação documentação da Arch Wiki](https://wiki.archlinux.org/title/Dual_boot_with_Windows#Installation). Abaixo vou deixar o meu script como exemplo, adapte para seu caso.
+* **Particionamento e formatação**: Recomendo utilizar a opção de script para evitar retrabalho e problemas na instalação do Arch além da leitura do [tópico de instalação em dual boot da Arch Wiki](https://wiki.archlinux.org/title/Dual_boot_with_Windows#Installation). Abaixo vou deixar o meu script como exemplo, adapte para seu caso.
 ```cmd
 SELECT DISK=0
 CLEAN
@@ -106,7 +105,7 @@ GPT ATTRIBUTES=0x8000000000000001
 
 **| OPCIONAL | Automatizando a instalação de softwares via script**
 
-Eu vou estar inserindo um script personalizado para instalar os softwares que listei, uma alternativa simples é utilizar um gerenciador de pacotes como o Chocolatey.
+Eu vou estar inserindo um script personalizado para instalar os softwares que listei, uma alternativa simples é utilizar um gerenciador de pacotes como o Chocolatey.  
 Ex usando chocolatey (Você pode conferir os softwares disponíveis [aqui](https://community.chocolatey.org/packages)):
 ```ps1
 # Instala o gerenciador de pacotes Chocolatey
